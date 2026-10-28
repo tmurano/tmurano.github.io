@@ -91,12 +91,6 @@ h1.title { font-size: 26px; font-weight: 400; margin: 22px 0 8px; }
 .items .t { display: block; font-weight: 600; }
 .items .m { display: block; color: var(--muted); font-size: 14px; }
 
-/* Media impact figures */
-.stats { display: flex; flex-wrap: wrap; gap: 10px 28px; margin: 8px 0 6px; }
-.stats div { min-width: 120px; }
-.stats b { display: block; font-size: 26px; font-weight: 400; line-height: 1.2; }
-.stats span { color: var(--muted); font-size: 13px; }
-
 /* CV */
 .cv { display: grid; grid-template-columns: 180px 1fr; gap: 6px 16px; margin: 0; }
 .cv dt { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
