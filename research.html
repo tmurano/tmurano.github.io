@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research — Tomoyuki Murano (村野友幸)</title>
-<meta name="description" content="Research of Tomoyuki Murano (村野友幸): activity-dependent control of neuronal maturation state in the dentate gyrus, mechanisms of antidepressant treatments, and computational tools for transcriptome analysis.">
+<meta name="description" content="Research of Tomoyuki Murano (村野友幸): neuronal hyperactivity, neuronal maturation state and antidepressant effects; transcriptome analysis and meta-analysis of human brain disorders; information coding in the dentate gyrus.">
 <meta name="author" content="Tomoyuki Murano">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -16,65 +16,44 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Tomoyuki Murano">
 <meta property="og:title" content="Research — Tomoyuki Murano (村野友幸)">
+<meta property="og:description" content="Research of Tomoyuki Murano (村野友幸): neuronal hyperactivity, neuronal maturation state and antidepressant effects; transcriptome analysis and meta-analysis of human brain disorders; information coding in the dentate gyrus.">
 <meta property="og:url" content="https://tmurano.github.io/research.html">
 <meta property="og:image" content="https://tmurano.github.io/assets/img/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/style.css?v=5a98c6ea">
 </head>
 <body>
-<header class="site-header">
-  <div class="wrap">
-    <a class="site-title" href="/">Tomoyuki Murano<small>村野友幸</small></a>
-    <nav class="site-nav" aria-label="Main">
-      <a href="/">Home</a>
-      <a href="/research.html" aria-current="page">Research</a>
-      <a href="/publications.html">Publications</a>
-      <a href="/presentations.html">Presentations</a>
-      <a href="/cv.html">CV</a>
-      <a href="/software.html">Software</a>
-      <a class="lang" href="/ja/research.html" hreflang="ja" lang="ja">日本語</a>
-    </nav>
-  </div>
-</header>
+<div class="page">
+<header class="topbar"><a class="home" href="/">Tomoyuki Murano <span lang="ja" class="note">村野友幸</span></a><nav class="linkrow" aria-label="Main"><a href="/research.html" aria-current="page">Research</a><a href="/publications.html">Publications</a><a href="/presentations.html">Presentations</a><a href="/media.html">Media</a><a href="/cv.html">CV</a><a href="/software.html">Software</a><a href="/ja/research.html" lang="ja" hreflang="ja">日本語</a></nav></header>
+<h1 class="title">Research</h1>
+<h2>1. Neuronal hyperactivity, neuronal maturation state and antidepressant effects</h2>
+<p>Mature neurons are not fixed in their state: granule cells of the hippocampal dentate gyrus can return to an immature-like
+  state in adulthood (“dematuration”; <a href="https://doi.org/10.1186/s13041-019-0522-8">Mol Brain 2019</a>). Using repeated
+  optogenetic stimulation of the dentate gyrus (REPOPS) that models electroconvulsive therapy, we showed that repetitive neuronal
+  activation regulates the maturation state of neurons via nuclear reprogramming, together with antidepressant-like behavioural
+  changes (<a href="https://doi.org/10.1038/s41467-026-74202-w">Nat Commun 2026</a>). Building on this, we now study why repeated
+  neuronal hyperactivity has antidepressant effects, and how neuronal hyperactivity contributes to the pathophysiology of
+  psychiatric disorders, using single-nucleus transcriptomics and epigenomics (supported by JST FOREST and JSPS KAKENHI).</p>
 
-<main class="wrap">
-  <h1>Research</h1>
+<h2>2. Transcriptome analysis and meta-analysis of human brain disorders</h2>
+<p>We have consistently analysed public gene-expression data from human post-mortem brains and disease models across studies, to
+  find molecular changes shared by psychiatric and neurological disorders: immature-like gene expression in the hippocampus and
+  prefrontal cortex of patients with alcoholism (<a href="https://doi.org/10.1038/srep44531">Sci Rep 2017</a>), transcriptomic
+  immaturity induced by neuronal hyperexcitation that is shared by multiple neuropsychiatric disorders
+  (<a href="https://doi.org/10.1038/s42003-018-0277-2">Commun Biol 2019</a>), and gene expression linked to brain pH across disorders
+  (<a href="https://doi.org/10.3389/fpsyt.2023.1151480">Front Psychiatry 2023</a>). Along this line we develop methods that score gene
+  expression against external reference signatures; RFind-sc extends this approach to single cells
+  (<a href="https://doi.org/10.64898/2026.10.21.759514">bioRxiv 2026</a>; see <a href="/software.html">Software</a>).</p>
 
-  <h2>1. Activity-dependent control of neuronal maturation state</h2>
-  <p>Granule cells of the hippocampal dentate gyrus can shift toward an immature-like state in
-    adulthood. We found transcriptomic “immaturity” in the hippocampus and prefrontal cortex of
-    patients with alcoholism (<a href="https://doi.org/10.1038/srep44531">Sci Rep 2017</a>), and showed
-    that the immaturity induced by neuronal hyperexcitation is shared by multiple neuropsychiatric
-    disorders (<a href="https://doi.org/10.1038/s42003-018-0277-2">Commun Biol 2019</a>). Using
-    repeated optogenetic stimulation of the dentate gyrus (REPOPS), we then showed that repetitive
-    neuronal activation regulates the maturation state of neurons via nuclear reprogramming
-    (<a href="https://doi.org/10.1038/s41467-026-74202-w">Nat Commun 2026</a>).</p>
-
-  <h2>2. Mechanisms of antidepressant treatments</h2>
-  <p>Electroconvulsive therapy strongly activates the dentate gyrus and has a striking therapeutic
-    effect. Starting from this observation, we study the molecular and cellular basis of the
-    antidepressant effects of repeated neuronal hyperactivity, using single-nucleus transcriptomics
-    and epigenomics. This work is supported by JST FOREST and JSPS KAKENHI.</p>
-
-  <h2>3. Computational tools for interpreting transcriptomes</h2>
-  <p>We develop methods that score gene expression against external reference signatures, so that the
-    state of a sample or a single cell can be read along biologically meaningful axes. RFind-sc ranks
-    each cell by its deviation from expected counts and maps it, with a direction-aware Running Fisher
-    test, onto axes defined by up- and down-regulated signatures
-    (<a href="https://doi.org/10.64898/2026.10.21.759514">bioRxiv 2026</a>; see
-    <a href="/software.html">Software</a>).</p>
-
-  <h2>Also: population coding in the dentate gyrus</h2>
-  <p>With calcium imaging in freely moving mice and machine learning, we showed that multiple types of
-    navigational information — position, speed, and direction of motion — are independently encoded
-    in the population activity of dentate gyrus neurons
-    (<a href="https://doi.org/10.1073/pnas.2106830119">PNAS 2022</a>).</p>
-</main>
-
-<footer class="site-footer">
-  <div class="wrap">© 2026 Tomoyuki Murano · Last updated 2026-10-28</div>
-</footer>
+<h2>3. Information coding in the brain: calcium imaging</h2>
+<p>We are interested in how information is encoded by populations of neurons, especially in the dentate gyrus and in the dentate
+  gyrus of disease models. With calcium imaging in freely moving mice and machine learning, we showed that multiple types of
+  navigational information — position, speed, and direction of motion — are independently encoded in the population activity of
+  dentate gyrus neurons, and that decoding of some of this information is selectively reduced in αCaMKII heterozygous knockout mice,
+  which show deficits in spatial memory (<a href="https://doi.org/10.1073/pnas.2106830119">PNAS 2022</a>).</p>
+<footer>© 2026 Tomoyuki Murano · Last updated 2026-10-29 · Paper thumbnails are figures from each paper (CC BY 4.0). Design adapted from <a href="https://jonbarron.info/">Jon Barron’s website</a>.</footer>
+</div>
 </body>
 </html>
